@@ -128,7 +128,7 @@ export class Option {
   /**
    * Only allow option value to be one of choices.
    */
-  choices(values: string[]): this;
+  choices(values: readonly string[]): this;
 
   /**
    * Return option name.
